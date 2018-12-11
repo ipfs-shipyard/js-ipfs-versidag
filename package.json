@@ -87,6 +87,6 @@
   },
   "dependencies": {
     "p-timeout": "^2.0.1",
-    "versidag": "^0.2.0"
+    "versidag": "^0.2.1"
   }
 }
