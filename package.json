@@ -1,6 +1,6 @@
 {
   "name": "ipfs-versidag",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Concurrent version history based on a Merkle-DAG on top of IPFS and IPLD",
   "keywords": [
     "ipfs",
