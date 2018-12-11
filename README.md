@@ -14,9 +14,9 @@
 [david-dm-dev-url]:https://david-dm.org/ipfs-shipyard/js-ipfs-versidag?type=dev
 [david-dm-dev-image]:https://img.shields.io/david/dev/ipfs-shipyard/js-ipfs-versidag.svg
 
-Concurrent version history based on a Merkle-DAG on top of IPFS and IPLD.
+> Concurrent version history based on a Merkle-DAG on top of IPFS and IPLD.
 
-This module wraps [versidag](https://github.com/ipfs-shipyard/js-versidag) and automatically configures `readNode` and `writeNode` to use IPFS.
+This module wraps [versidag](https://github.com/ipfs-shipyard/js-versidag) and automatically configures `readNode` and `writeNode` to use [IPFS](https://ipfs.io/) and [IPLD](https://ipld.io/).
 
 **version + dag = versidag**
 
@@ -27,7 +27,7 @@ This module wraps [versidag](https://github.com/ipfs-shipyard/js-versidag) and a
 $ npm install ipfs-versidag
 ```
 
-You must also install ipfs as it is a peer dependency of this module.
+You must also install `ipfs` as it is a peer dependency of this module.
 
 
 ## Usage
@@ -51,7 +51,7 @@ ipfs.on('ready', async () => {
 
     const versions = await myVersidagD.resolve();
     // [
-    //   { version: 'Hello world' },
+    //   { version: 'Hello World' },
     //   { version: 'Hi World', meta: 3 }
     //   { version: 'Hello', meta: 2 }
     //   { version: 'Hi', meta: 1 }
